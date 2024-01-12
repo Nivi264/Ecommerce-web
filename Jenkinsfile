@@ -1,5 +1,5 @@
 pipeline {
-        agent {build-agent
+        agent build-agent
     
         stages {
             stage('Checkout') {
@@ -14,4 +14,4 @@ pipeline {
             }
         }
     }
-}
+
